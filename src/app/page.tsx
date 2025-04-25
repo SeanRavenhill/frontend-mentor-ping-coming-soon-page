@@ -7,11 +7,11 @@ export default function Home() {
       flex flex-col
       justify-center items-center
       w-full
-      h-screen min-h-screen 
-      p-8 pb-20 gap-16 
+      h-screen min-h-screen
+      p-8 pb-20 gap-16
       sm:p-20'
     >
-      <Logo />
+      <Logo className='w-[5.625rem] h-[2.4375rem]'/>
       We are launching soon! Subscribe and get notified Notify Me &copy;
       Copyright Ping. All rights reserved.
       <footer>
