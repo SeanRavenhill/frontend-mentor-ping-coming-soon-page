@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { libreFranklin } from '@/styles/fonts'
+import { libreFranklin } from "@/styles/fonts";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -14,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${libreFranklin.className} antialiased`}
-      >
+      <body className={`${libreFranklin.className} antialiased`}>
         {children}
       </body>
     </html>
