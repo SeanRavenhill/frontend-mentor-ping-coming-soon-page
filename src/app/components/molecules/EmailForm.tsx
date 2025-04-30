@@ -60,7 +60,7 @@ export default function EmailForm() {
         <p
           role="alert"
           id="email-error"
-          className="text-secondaryRed justify-start text-[0.625rem] leading-tight font-normal tracking-tight italic"
+          className="text-secondaryRed mt-[2px] justify-start text-[0.625rem] leading-tight font-normal tracking-tight italic"
         >
           {error}
         </p>
