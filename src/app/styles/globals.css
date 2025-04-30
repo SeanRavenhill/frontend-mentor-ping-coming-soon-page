@@ -4,6 +4,7 @@
   --color-background: #ffffff;
   --color-foreground: #171717;
   --color-primaryBlue: hsl(223, 87%, 63%);
+  --color-primaryBlueHover: hsl(226, 77%, 70%);
   --color-secondaryBlue: hsl(223, 100%, 88%);
   --color-secondaryRed: hsl(354, 100%, 66%);
   --color-neutralGray: hsl(0, 0%, 59%);
@@ -23,21 +24,22 @@
     @apply text-neutralDarkBlue text-center text-xs font-light;
   }
 
+  button,
+  input#email {
+    @apply h-10 w-full max-w-[17.625rem] rounded-full;
+  }
+
   button {
-    @apply bg-primaryBlue h-10 w-full max-w-[17.625rem] cursor-pointer justify-start rounded-full text-center font-['Libre_Franklin'] text-xs leading-none font-semibold text-white shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)];
+    @apply bg-primaryBlue hover:bg-primaryBlueHover focus:outline-neutralDarkBlue cursor-pointer justify-start text-center text-xs leading-none font-semibold text-white shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)] transition;
   }
 
   input#email {
-    @apply h-10 w-[281px] justify-start rounded-[28px] border border-[#c2d3ff] bg-white pl-8 font-['Libre_Franklin'] text-xs leading-tight font-light text-[#b8c7ec] shadow-[0px_0px_7px_3px_rgba(0,0,0,0.00)];
-  }
-
-  input#email:invalid::after {
-    @apply bg-red-300;
+    @apply border-secondaryBlue text-secondaryBlue focus:outline-neutralDarkBlue justify-start border bg-white pl-8 text-xs leading-tight font-light shadow-[0px_0px_7px_3px_rgba(0,0,0,0.00)];
   }
 }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: Arial, Helvetica, sans-serif;

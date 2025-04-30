@@ -27,8 +27,7 @@
       "@/organisms/*": ["src/app/components/organisms/*"],
       "@/icons/*": ["src/app/components/atoms/icons/*"],
       "@/hooks/*": ["src/app/hooks/*"],
-      "@/styles/*": ["src/app/styles/*"],
-      
+      "@/styles/*": ["src/app/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
