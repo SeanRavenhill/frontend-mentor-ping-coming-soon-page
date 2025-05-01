@@ -20,34 +20,7 @@ export default function Home() {
                 soon!
               </span>
             </h1>
-            <form className="flex flex-col" noValidate>
-              <h2 className="text-neutralDarkBlue mt-4 text-center text-xs sm:text-xl">
-                Subscribe and get notified
-              </h2>
-              <div className="mt-8 flex flex-auto flex-col gap-2.5 sm:flex-row sm:items-start sm:gap-4">
-                <div className="mx-2.5 flex-auto sm:mx-0">
-                  <label htmlFor="email" className="sr-only">
-                    Email Address:
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Your email address…"
-                    className="text-inputText border-secondaryBlue h-10 w-full rounded-full border bg-white pl-8 text-xs sm:h-14 sm:w-full sm:text-base"
-                    required
-                  />
-                  <p className="text-secondaryRed mt-0.5 mb-2.5 pl-0 text-center text-[0.625rem] leading-tight tracking-tight italic sm:mt-1.5 sm:pl-8 sm:text-left sm:text-xs">
-                    error message place holder
-                  </p>
-                </div>
-                <div className="mx-2.5 flex-auto sm:mx-0">
-                  <button className="bg-primaryBlue hover:bg-primaryBlueHover h-10 w-full flex-auto cursor-pointer rounded-full text-xs font-semibold text-white shadow-[0px_5px_10px_2px_rgba(76,123,243,0.23)] transition sm:mx-0 sm:h-14 sm:max-w-52 sm:text-base">
-                    Notify Me
-                  </button>
-                </div>
-              </div>
-            </form>
+            <EmailForm />
             <Image
               src="/illustration-dashboard.png"
               alt=""
