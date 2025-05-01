@@ -34,7 +34,11 @@ export default function EmailForm() {
   };
 
   return (
-    <form onSubmit={onSubmit} className="flex flex-col" noValidate>
+    <form
+      onSubmit={onSubmit}
+      className="mx-auto flex max-w-[40rem] flex-col"
+      noValidate
+    >
       <h2 className="text-neutralDarkBlue mt-4 text-center text-xs sm:text-xl">
         Subscribe and get notified
       </h2>

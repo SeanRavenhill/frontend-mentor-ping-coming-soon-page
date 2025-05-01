@@ -14,7 +14,7 @@ export default function Home() {
         </header>
         <main>
           <section className="mt-8 sm:mt-10">
-            <h1 className="text-neutralGray text-center text-[1.375rem]/[2rem] font-light sm:text-[3rem]/[3.75rem]">
+            <h1 className="text-neutralGray mx-auto max-w-[40rem] text-center text-[1.375rem]/[2rem] font-light sm:text-[3rem]/[3.75rem]">
               We are launching{" "}
               <span className="text-neutralDarkBlue text-center font-bold">
                 soon!
@@ -26,7 +26,7 @@ export default function Home() {
               alt=""
               width={1280}
               height={720}
-              className="mt-[4.5rem] w-[40rem] sm:mt-24"
+              className="mt-[4.5rem] w-[40rem] sm:mt-24 2xl:mx-auto 2xl:w-[80%]"
               aria-hidden="true"
               role="presentation"
               priority
