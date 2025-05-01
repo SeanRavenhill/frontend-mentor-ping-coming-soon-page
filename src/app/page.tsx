@@ -26,6 +26,9 @@ export default function Home() {
               </h2>
               <div className="mt-8 flex flex-auto flex-col gap-2.5 sm:flex-row sm:items-start sm:gap-4">
                 <div className="mx-2.5 flex-auto sm:mx-0">
+                  <label htmlFor="email" className="sr-only">
+                    Email Address:
+                  </label>
                   <input
                     type="email"
                     name="email"
