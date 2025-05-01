@@ -8,8 +8,8 @@ import EmailForm from "@/molecules/EmailForm";
 export default function Home() {
   return (
     <main className="flex h-full min-h-dvh w-full flex-col items-center px-7 pt-20 pb-9">
-      <Logo className="h-[1.5rem] w-[3.5rem]" />
-      <section className="mt-8 flex flex-col justify-center">
+      <Logo className="h-[1.5rem] w-[3.5rem] md:h-[2.5rem] md:w-[5.625rem]" />
+      <section className="mt-8 flex flex-col justify-center md:mt-10">
         <h1>
           We are launching <span>soon!</span>
         </h1>
@@ -19,7 +19,7 @@ export default function Home() {
           alt=""
           width={1280}
           height={720}
-          className="mt-[4.5rem]"
+          className="mt-[4.5rem] md:mt-[4.25rem] md:max-w-[40rem]"
           aria-hidden="true"
           role="presentation"
           priority
@@ -28,7 +28,7 @@ export default function Home() {
 
       <nav
         aria-label="Social links"
-        className="mt-[7.5rem] flex flex-row gap-3"
+        className="mt-[7.5rem] flex flex-row gap-3 md:mt-[4.5rem]"
       >
         <FacebookIcon />
         <TwitterIcon />
