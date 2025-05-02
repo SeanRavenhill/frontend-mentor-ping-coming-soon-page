@@ -1,22 +1,26 @@
-# Frontend Mentor - Ping coming soon page
+# Frontend Mentor - Ping coming soon page solution
 
-![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this Coming Soon page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -25,72 +29,91 @@ Your users should be able to:
   - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshots
 
-## Where to find everything
+#### Captured with Firefox Screenshot tool on Macbook Pro M3 ( 14inch)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+###### No Error Message
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+<img src="screenshots/ping-desktop.png" width=500>
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+###### No Email Provided Error Message
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+<img src="screenshots/ping-desktop-invldeml-1.png" width=500>
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+###### No Valid Email Provided Error Message
 
-## Building your project
+<img src="screenshots/ping-desktop-invldeml-2.png" width=500>
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+#### Captured with Screenshot on iPhone (13mini)
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+<img src="screenshots/ping-mobile-iphone-1.jpeg" width=250>
+<img src="screenshots/ping-mobile-iphone-2.jpeg" width=250>
 
-## Deploying your project
+#### Lighthouse Scores
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+<img src="screenshots/lighthouse-desktop.png" width=250>
+<img src="screenshots/lighthouse-mobile.png" width=250>
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Links
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+- [Solution - Github Repository](https://github.com/SeanRavenhill/frontend-mentor-ping-coming-soon-page)
+- [Live Site - Deployed on Vercel](https://frontend-mentor-ping-coming-soon-page-five.vercel.app/)
 
-## Create a custom `README.md`
+## My process
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Built with
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwindcss v4](https://tailwindcss.com/) - Tailwind CSS framework
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### What I learned
 
-## Submitting your solution
+This project reminded me to keep things simple while getting my “reps” with beginner projects. It also highlighted that my Tailwind CSS skills, as well as my regular CSS, were/are rusty—especially my understanding of Flexbox and properties like flex-shrink, flex-grow, and flex-basis.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+I spent a great deal of time reading about form submission and handling in Next.js and React when, in reality, I was over-engineering something that could be achieved with a basic HTML form and React state management. This over-engineered approach is clear in the commit history. It’s a good reminder to keep things simple: consider how tasks can be accomplished with hooks like: useState, useEffect, and useRef, before diving into complex patterns that send me down rabbit holes.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+I need to focus on React basics, as outlined in the official docs here: [https://react.dev/learn](https://react.dev/learn) - “This page will give you an introduction to 80% of the React concepts that you will use on a daily basis.”
 
-## Sharing your solution
+I should be able to complete most Frontend Mentor challenges using fundamentals, rather than adopting solutions meant for full-stack or back-end projects.
 
-There are multiple places you can share your solution:
+I used this project as an opportunity to improve my Git workflow by making more granular commits and leveraging feature branches for better version control.
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+I approached the build mobile-first, styling and laying out the JSX for smaller screens. However, without planning the desktop layout in advance, I discovered that my JSX structure wouldn’t adapt well to larger breakpoints—there were too many layout issues.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+That realization was actually helpful because it led me to explore Tailwind’s playground and educational templates. I realized I had forced too much styling responsibility into too few <div> elements. While Tailwind examples often include nested <div>s, they offer more granular control over layout and styling without cramming everything into a single container. This insight prompted a complete refactor: though initially frustrating, I ended up with a much smoother, responsive result by using Tailwind’s utility classes as intended. I also halfed my time in regards to writing the markup.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+I also learned why it can be beneficial to keep Tailwind utilities markup in the JSX: for now, it’s far easier to work on layout with everything in one place, rather than jumping back to a globals.css file where I was attempting to build a full design system better suited to a team-maintained project.
 
-## Got feedback for us?
+In short, as mentioned at the start of this report, both this project and the previous [Huddle Challenge](https://github.com/SeanRavenhill/huddle-landing-page-with-single-introductory-section-nextjs) highlight that I’m trying to sprint before I can walk. I need to trust the process, take things slower, and build a strong foundation again.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+If you review the Huddle repo, you’ll see examples of this: I imported and used SVGR incorrectly due to a misunderstanding of the documentation, and I tried using Tailwind Fluid to make the site respond more dynamically to window resizes—when in reality things looked off simply because I wasn’t using CSS and Tailwind effectively. Adding a modal for the credentials and info links introduced unnecessary complexity at this stage of my learning; while I gained valuable insight, it ultimately hindered my progress. This experience reinforced the need to strengthen my fundamentals in HTML, CSS, and JavaScript—and to understand how those basics translate when using frameworks.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+I also discovered that HTML forms can bypass default browser validation with the noValidate attribute—very useful when you want to apply custom validation logic and styling.
 
-**Have fun building!** 🚀
+Finally, another rewarding rabbit hole was learning about Conventional Commits conventions for crafting clear, consistent Git commit messages.
+
+### Continued development
+
+I’m going to keep building with Nextjs, React, and Tailwind—as this modern tech stack is what I need to feel comfortable with in a professional environment. My HTML, CSS, and JS fundamentals are good enough, so working in a vanilla stack wouldn’t add much value right now, at least this is my perspective. Instead, I’ll lean on the basics when I implement and work with modern frameworks.
+
+I’ll also remind myself that if something starts to feel over‑complicated, or I’m deep‑diving into docs, chances are I’m over‑engineering. In those moments, I need to step back, think about how to solve it with fundamentals, and only then reach for more elaborate patterns.
+
+### Useful resources
+
+- [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/) - This helped me in refining my commit messages and how to handle version control in general.
+
+## Author
+
+- [Sean Ravenhill](https://github.com/SeanRavenhill)
+- Frontend Mentor - [@SeanRavenhill](https://www.frontendmentor.io/profile/SeanRavenhill)
+
+## Acknowledgments
+
+- [Frontend Mentor](https://www.frontendmentor.io/) for the challenge design and assets.
+
+- [Codecademy](https://www.frontendmentor.io/https://www.codecademy.com/) for the Front End Career Path curriculum, which helped reinforce core web fundamentals.
